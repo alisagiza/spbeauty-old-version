@@ -10,7 +10,6 @@ function PrimaryButton(props) {
         background: rgba(59, 130, 246, 1);
         border: 0px solid #152842;
         border-radius: 24px;
-        box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
         min-width: ${minWidth};
         color: white;
         &:hover {
