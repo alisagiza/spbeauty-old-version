@@ -7,15 +7,15 @@ import IconOnlyButton from '../../../../../Components/IconOnlyButton.js';
 const Option = styled.div`
     outline: none;
     border-radius: 0px;
-    border: solid #152842 1px;
-    background-color: #D9E2EF;
-    color: #666787;
+    border: solid #152842 0px;
+    background-color: #FFFFFF;
+    color: rgba(15, 23, 42, 1);
 `;
 
 function ListElement(props) {
     return (
         <div className='d-flex flex-row align-items-center align-self-stretch gap-2'>
-            <Option className='flex-grow-1 p-2'>{props.children}</Option>
+            <Option className='flex-grow-1 px-0 py-3'>{props.children}</Option>
             <EditIcon>
                 <IconOnlyButton icon={<EditIcon/>}/>
             </EditIcon>

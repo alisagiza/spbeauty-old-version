@@ -2,3 +2,11 @@
 .no_padding {
     padding: 0;
 }
+.added-border {
+    border: solid rgba(100, 116, 139, 0.12) 1px;
+    border-radius: 8px;
+}
+
+.color-text-rg {
+    color: rgba(100, 116, 139, 1);
+}
