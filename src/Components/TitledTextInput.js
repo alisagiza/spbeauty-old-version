@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-const Title = styled.input`
-    color: rgba(148, 163, 184, 1);
-`;
-
 const Input = styled.input`
     outline: none;
     border-radius: 24px;
