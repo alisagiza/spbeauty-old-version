@@ -1,7 +1,7 @@
 import Avatar from "./Avatar";
 function Profile() {
     return (
-        <div className='d-inline-flex flex-row'>
+        <div className='d-inline-flex flex-row mx-5'>
             <Avatar/>
             <div className='ms-3 d-inline-flex flex-column justify-content-center gap-2'>
                 <div className='title'>SPBEAUTY</div>
